@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="wandaapp">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>万达财富</title>
+		<style>
+			.title{
+				color:blue;
+				font-weight:bold;
+			}
+		</style>
+		<link rel="stylesheet" href="css/ionic.css" />
+	</head>
+	<body ng-controller="wandaCtrl">
+		<div class="bar bar-header">
+			<button class="button button-icon icon ion-ios-arrow-back"></button>
+			<h2 class="title">身份验证</h2>
+		</div>
+		<ion-content class="has-header">
+			
+		</ion-content>
+		<script src="js/ionic.bundle.js"></script>
+		<script type="text/javascript">
+			angular.module("wandaapp",["ionic"])
+			.controller("wandaCtrl",["$scope",function($scope){
+				
+			}])
+		</script>
+	</body>
+</html>
